@@ -18,6 +18,7 @@ for SDXC memory cards.
 %setup -q
 
 %build
+pwd && ls -alZ
 %configure
 
 make %{?_smp_mflags}
